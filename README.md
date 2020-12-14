@@ -1,11 +1,11 @@
 # Item-Importer
 
-Parses the results of a CSV and imports each record to an API
+Parses the contents of a CSV and imports each row using an API
 
 ---
 ## Requirements
 
-For development, you will only need Node.js and npm, installed in your environement.
+For development, you will only need Node.js and npm installed in your environement.
 
 ---
 
@@ -16,7 +16,7 @@ For development, you will only need Node.js and npm, installed in your environem
     $ npm install
     
 ## Setup
-- You will need to supply an email address, API key and domain in the lines 5, 6, and 7 of index.js.
+- You will need to supply an email address, API key and domain in lines 5, 6, and 7 of index.js
 ```
 const domain = 'YOUR_DOMAIN';
 const userName = 'YOUR_EMAIL';
