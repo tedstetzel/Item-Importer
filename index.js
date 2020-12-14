@@ -44,7 +44,7 @@ csv()
             }
         })
         .then(function (response) {
-            console.log(`Created new item with ID for row #${(Number(i)+2)} with ${response.data.id}`);
+            console.log(`Created new item from row #${(Number(i)+2)} with ID ${response.data.id}`);
         })
         .catch(function (error) {
             console.log(error);
