@@ -16,7 +16,12 @@ For development, you will only need Node.js and npm, installed in your environem
     $ npm install
     
 ## Setup
-- You will need to supply an email address, API key and Domain in the lines 5,6,and 7 of index.js. 
+- You will need to supply an email address, API key and domain in the lines 5, 6, and 7 of index.js.
+```
+const domain = 'YOUR_DOMAIN';
+const userName = 'YOUR_EMAIL';
+const apiKey = 'YOUR_API KEY';
+```
 - A sample CSV file is supplied (sample-exercise.csv)
 - You can run the application with the following commpand: 
 ```
