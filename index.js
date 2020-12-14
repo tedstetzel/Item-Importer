@@ -2,7 +2,7 @@ const csvFilePath='./sample-exercise.csv'
 const axios = require('axios');
 
 //Provide your creds, for more info see https://developer.gladly.com/rest/#section/Getting-Started/Permissions
-const domain = 'YOUR_DOMAIN';
+const domain = 'YOUR_DOMAIN'; //e.g. 'domain.gladly.qa' - don't include https:// or / at end 
 const userName = 'YOUR_EMAIL';
 const apiKey = 'YOUR_API KEY';
 
